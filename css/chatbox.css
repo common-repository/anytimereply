@@ -1,0 +1,247 @@
+.popup {
+position: fixed;
+z-index: 9999;
+top: 60px;
+/*left: 50%;
+*/
+right:0;
+
+width: 350px;
+height: 400px;
+background: #fff;
+-moz-box-shadow: 4px 4px 30px #130507;
+-webkit-box-shadow: 4px 4px 30px #130507;
+box-shadow: 4px 4px 30px #130507;
+-moz-transition: left 800ms;
+-o-transition: left 800ms;
+-webkit-transition: left 800ms;
+transition: left 800ms;
+border-radius:9px;
+}
+.p_content {
+width: 100%;
+text-align: center;
+font-size: 23px;
+padding: 110px 0 0;
+}
+#supportsmalldot{
+float:left;
+padding-left:6px;	
+}
+.p_anch {
+float: left;
+position: relative;
+z-index: 1;
+width: 100%;
+margin: 80px 0 0 0;
+text-align: center;
+font-size: 18px;
+}
+.p_anch a {
+color: #000;
+}
+.p_anch a:hover {
+text-decoration: none;
+}
+.p_anch_bottom {
+margin: 1500px 0 0 0;
+padding: 0 0 50px 0;
+}
+.atrnewregistration{
+border:1px solid brown;	
+width:80%;
+padding:10px;
+
+}
+.atrnewregistration input{
+	margin-left:20px;
+}
+.p_close {
+position: absolute;
+top: 0;
+right: 0;
+width: 16px;
+height: 12px;
+padding: 15px 11px 0 0;
+}
+.p_close span {
+display: block;
+width: 18px;
+height: 5px;
+background: #333;
+}
+.p_close span:first-child {
+-ms-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+.p_close span:last-child {
+margin: -5px 0 0;
+-ms-transform: rotate(135deg);
+-webkit-transform: rotate(135deg);
+transform: rotate(135deg);
+}
+.p_body {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #000;
+opacity: 0.7;
+-moz-transition: opacity 800ms;
+-o-transition: opacity 800ms;
+-webkit-transition: opacity 800ms;
+transition: opacity 800ms;
+}
+/* JS-styles — declaratively */
+.js__popup {
+}
+.js__p_start {
+	font-size:14px;
+	color:#fff;
+	font-weight:bold;
+	cursor:help;
+	z-index:99999;
+
+}
+.js__p_close {
+}
+.js__p_body {
+}
+.js__slide_top {
+height: 0;
+overflow: hidden;
+top: 0;
+}
+.js__fadeout {
+height: 0;
+overflow: hidden;
+opacity: 0;
+}
+
+
+
+/* chat box css */
+.supportbtn12344{
+width:110px;
+height:30px;
+text-align:left;
+background-color:#3a67b1;
+border-radius:20px;
+padding-top:5px;
+    right: -12px;
+    top: 25%;
+	position:fixed;
+	z-index:99;
+	
+}
+
+#atrintro233{
+	float:left;
+	
+}
+.supportbtn12344 a{
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+	
+}
+
+#mariaicon886{
+	float:left;
+	position:relative;
+}
+#mariatext3234{
+	float:left;
+}
+.chatboxmessage{
+
+}
+.chatboxcontent{
+	border:1px solid #A0A0A4;
+height:250px;
+width:300px;
+margin:0 auto;
+display:block;
+clear:both;
+text-align:left;
+padding-top:20px;
+overflow:scroll;
+}
+.chatboxinput{
+	width:300px;
+		margin:0 auto;
+	clear:both;
+	display:block;
+}
+.chatboxtextarea{
+	width:300px;
+	margin:0 auto;
+	clear:both;
+	display:block;
+}
+.chatboxmessagefrom{
+font-weight:bold;
+padding:2px;
+}
+.chatboxmessagecontent{
+	font-style:italic;
+	padding-left:2px;
+}
+#thinking{
+	color:#A0A0A4;
+	
+}
+.userleads{
+background-color:#fff;
+display:block;
+
+padding-top:15%;
+
+}
+input[type="text"]{
+	height:40px;
+	margin-left:5px;
+}
+input[type="email"]{
+	height:40px;
+	margin-left:5px;
+}
+input[type="button"]{
+	height:40px;
+	margin-left:5px;
+}
+.chatboxcontent{
+	display:none;
+}
+.chatboxinput{
+	display:none;
+}
+.leadsinfo{
+font-family:Arial, Helvetica, sans-serif;
+color:#808080;
+}
+
+
+a img{
+	box-shadow:none !important;
+	
+}
+
+#atrnotification{
+	width:80%;
+	padding:5px;
+	border:1px solid brown;
+	background-color:#90EE90;
+	height:60px;
+	display:block;
+	clear:both;
+	margin-top:20px;
+}
+.atrnewregistrationfield{
+	width:250px;
+	height:40px;
+	margin-left:250px
+}
+	
